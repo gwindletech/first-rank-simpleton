@@ -1,29 +1,7 @@
 import { NavLink } from "react-router-dom";
+import content from "../data/data";
 
 function PageNav() {
-  const content = [
-    {
-      title: "Lithium",
-      titration: "Step 1: ...",
-      monitoring: "Look out for ...",
-    },
-    {
-      title: "Clozapine",
-      titration: "Step 1: ...",
-      monitoring: "Look out for ...",
-    },
-    {
-      title: "Valproate",
-      titration: "Step 1: ...",
-      monitoring: "Look out for ...",
-    },
-    {
-      title: "ECT",
-      titration: "Step 1: ...",
-      monitoring: "Look out for ...",
-    },
-  ];
-
   return (
     <nav className="bg-blue-900 p-4 shadow">
       <ul className="flex items-center">
@@ -31,7 +9,7 @@ function PageNav() {
           <li>
             <NavLink to="/">
               <img
-                src="../../public/brain-8-svgrepo-com.png"
+                src="/brain-8-svgrepo-com.png"
                 alt="Brain"
                 className="w-14"
               />
