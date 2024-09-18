@@ -12,7 +12,7 @@ function PageNav({ topic, setTopic, setSection }) {
   }
 
   return (
-    <nav className="bg-blue-900 p-4 shadow h-20 fixed w-full top-0 left-0 z-10">
+    <nav className="bg-blue-900 p-4 shadow h-20 fixed w-full top-0 left-0 z-50">
       <ul className="flex items-center">
         <div>
           <li>
